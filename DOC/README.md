@@ -28,7 +28,7 @@ data
 
 
 
-```json
+```
     {'passages': 'https://anthologiagraeca.org/api/passages/?format=json',
      'books': 'https://anthologiagraeca.org/api/books/?format=json',
      'scholia': 'https://anthologiagraeca.org/api/scholia/?format=json',
@@ -67,7 +67,7 @@ epigrams_res
 
 
 
-```json
+```
     {'count': 4134,
      'next': 'https://anthologiagraeca.org/api/passages/?format=json&page=2',
      'previous': None,
@@ -192,7 +192,7 @@ alldata
 
 
 
-```json
+```
     {'count': 4134,
      'next': None,
      'previous': 'https://anthologiagraeca.org/api/passages/?format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&format=json&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&limit=100&page=41',
@@ -281,7 +281,7 @@ ep6_13
 
 
 
-```json
+```
     {'id': 394,
      'book': {'url': 'https://anthologiagraeca.org/api/books/5/', 'number': 6},
      'fragment': 13,
@@ -330,7 +330,7 @@ ep12_132a
 
 
 
-```json
+```
     {'id': 3199,
      'book': {'url': 'https://anthologiagraeca.org/api/books/8/', 'number': 12},
      'fragment': 132,
@@ -426,7 +426,7 @@ ep6_13['texts']
 
 
 
-```json
+```
     [{'language': 'grc',
       'text': 'οἱ τρισσοί τοι ταῦτα τὰ δίκτυα θῆκαν ὅμαιμοι,\nἀγρότα Πάν, ἄλλης ἄλλος ἀπ᾽ ἀγρεσίης:\nὧν ἀπὸ μὲν πτηνῶν Πίγρης τάδε, ταῦτα δὲ Δᾶμις\nτετραπόδων, Κλείτωρ δ᾽ ὁ τρίτος εἰναλίων.\nἀνθ᾽ ὧν τῷ μὲν πέμπε δι᾽ ἠέρος εὔστοχον ἄγρην,\nτῷ δὲ διὰ δρυμῶν, τῷ δὲ δι᾽ ἠϊόνων. '},
      {'language': 'ita',
@@ -452,7 +452,7 @@ ep6_13['authors']
 
 
 
-```json
+```
     [{'tlg_id': 'tlg-1458',
       'names': [{'name': 'Leonidas of Tarentum', 'language': 'eng'},
        {'name': 'Λεωνίδας ὁ Ταραντῖνος', 'language': 'grc'},
@@ -480,7 +480,7 @@ ep6_13['keywords']
 
 
 
-```json
+```
     [{'id': 1,
       'names': [{'name': 'distique élégiaque', 'language': 'fra'},
        {'name': 'distico elegiaco', 'language': 'ita'},
@@ -566,7 +566,7 @@ keyword_1
 
 
 
-```json
+```
     {'id': 1,
      'url': 'https://anthologiagraeca.org/api/keywords/1/',
      'category': {'id': 1,
@@ -599,7 +599,7 @@ ep7_81['cities']
 
 
 
-```json
+```
     [{'id': 45, 'names': [{'name': 'Lindus', 'language': 'eng'}]},
      {'id': 61,
       'names': [{'name': 'Atenas', 'language': 'por'},
@@ -659,7 +659,7 @@ Mytilene
 
 
 
-```json
+```
     {'url': 'https://anthologiagraeca.org/api/cities/89/',
      'names': [{'name': 'Mytilene', 'language': 'eng'},
       {'name': 'Mytilène', 'language': 'fra'},
@@ -688,7 +688,7 @@ ep6_13['scholia']
 
 
 
-```json
+```
     [{'book': 6,
       'fragment': 13,
       'sub_fragment': '',
@@ -723,7 +723,7 @@ print(sc5_0_2)
 sc12_0_2 = requests.get('https://anthologiagraeca.org/api/scholia/urn:cts:greekLit:tlg5011.tlg001.sag:12.0.2/').json()
 print(sc12_0_2)
 ```
-```json
+```
     {'id': 1999, 'url': 'https://anthologiagraeca.org/api/scholia/urn:cts:greekLit:tlg5011.tlg001.sag:5.0.1/', 'urn': 'urn:cts:greekLit:tlg5011.tlg001.sag:5.0.1', 'web_url': '/passages/urn:cts:greekLit:tlg5011.tlg001.sag:5.0.1/', 'manuscripts': ['http://digi.ub.uni-heidelberg.de/iiif/2/cpgraec23%3A087.jpg/pct:9.335021316210499,67.9883147400695,17.828050776662216,8.264462809917363/full/0/default.jpg'], 'texts': [{'language': 'grc', 'text': 'ἀρχή τῶν ἐρωτικὼν ἐπιγραμμάτων'}, {'language': 'por', 'text': 'Início dos epigramas eróticos.'}, {'language': 'fra', 'text': 'Le début des épigrammes érotiques.'}], 'cities': [], 'keywords': [], 'passage': {'book': 5, 'fragment': 0, 'sub_fragment': '', 'url': '/passages/urn:cts:greekLit:tlg7000.tlg001.ag:5.0/'}, 'comments': [{'description': ['Lemmatiste: L.'], 'language': ['fra']}], 'media': []}
     {'id': 2000, 'url': 'https://anthologiagraeca.org/api/scholia/urn:cts:greekLit:tlg5011.tlg001.sag:5.0.2/', 'urn': 'urn:cts:greekLit:tlg5011.tlg001.sag:5.0.2', 'web_url': '/passages/urn:cts:greekLit:tlg5011.tlg001.sag:5.0.2/', 'manuscripts': [' http://digi.ub.uni-heidelberg.de/iiif/2/cpgraec23%3A088.jpg/pct:9.57839977186465,5.684292685810079,77.95889161681437,5.6234937070427575/full/0/default.jpg'], 'texts': [{'language': 'grc', 'text': 'ἀρχή τῶν ἐρωτικῶν έπιγραμμάτων - διαφόρων ποιητῶν'}, {'language': 'por', 'text': 'Início dos epigramas eróticos - de diferentes poetas.'}, {'language': 'fra', 'text': 'Le début des épigrammes érotiques - de différentes auteurs.'}], 'cities': [], 'keywords': [], 'passage': {'book': 5, 'fragment': 0, 'sub_fragment': '', 'url': '/passages/urn:cts:greekLit:tlg7000.tlg001.ag:5.0/'}, 'comments': [], 'media': []}
     {'id': 816, 'url': 'https://anthologiagraeca.org/api/scholia/urn:cts:greekLit:tlg5011.tlg001.sag:12.0.2/', 'urn': 'urn:cts:greekLit:tlg5011.tlg001.sag:12.0.2', 'web_url': '/passages/urn:cts:greekLit:tlg5011.tlg001.sag:12.0.2/', 'manuscripts': ['http://digi.ub.uni-heidelberg.de/iiif/2/cpgraec23%3A569.jpg/pct:12.639237143536691,11.953945008805782,63.97128581066486,12.422816818582767/full/0/default.jpg'], 'texts': [{'language': 'grc', 'text': 'καὶ τίς ἂν εἴην εἰ πάντων σοι τῶν εἰρημένων τὴν γνῶσιν ἐκθέμενος τῶν Στράτωνος τῶν Σαρδιανοῦ Παιδικὴν Μοῦσαν ἐπεκρυψάμην, ἣν αὐτὸς παίζων πρὸς τοὺς πλησίον ἐπεδείκνυτο, τέρψιν οἰκείαν τὴν ἀπαγγελίαν τῶν ἐπιγραμμάτων, οὐ τὸν νοῦν, ποιούμενος. ἔχου τοίνυν τῶν ἑξῆς: ἐν χορείαις γὰρ ἥ γε σώφρων, κατὰ τὸν τραγικόν, οὐ διαφθαρήσεται.'}, {'language': 'grc', 'text': 'καὶ τίς ἂν εἴην εἰ πάντων σοι τῶν εἰρημένων τὴν γνῶσιν ἐκθέμενος τὴν Στράτωνος τοῦ Σαρδιανοῦ Παιδικὴν Μοῦσαν ἐπεκρυψάμην, ἣν αὐτὸς παίζων πρὸς τοὺς πλησίον ἐπεδείκνυτο, τέρψιν οἰκείαν τὴν ἀπαγγελίαν τῶν ἐπιγραμμάτων, οὐ τὸν νοῦν, ποιούμενος. ἔχου τοίνυν τῶν ἑξῆς: ἐν χορείαις γὰρ ἥ γε σώφρων, κατὰ τὸν τραγικόν, οὐ διαφθαρήσεται.'}, {'language': 'eng', 'text': 'And what kind of man should I be, reader, if after setting forth all that precedes for thee to study, I were to conceal the Puerile Muse of Strato of Barclis, which he used to recite to those about him in sport, taking personal delight in the diction of the epigrams, not in their meaning. Apply thyself then to what follows, for “in dances,” as the tragic poet says, "a chaste woman will not be corrupted.”'}, {'language': 'fra', 'text': "Et qui serais-je si après t'avoir donné la connaissance de toutes les choses dites, je te cachais la Muse garçonnière de Straton de Sardes, que lui-même en jouant récitait à ceux qui l'entouraient, en se faisant une joie personnelles de la récitation des épigrammes et non de leur sens. Voilà pour toi ce qui suit: dans les danses en effet, comme le dit le poète tragique, une femme chaste ne peut pas être corrompue."}], 'cities': [], 'keywords': [], 'passage': {'book': 12, 'fragment': 0, 'sub_fragment': '', 'url': '/passages/urn:cts:greekLit:tlg7000.tlg001.ag:12.0/'}, 'comments': [], 'media': []}
@@ -740,7 +740,7 @@ ep6_13['comments']
 
 
 
-```json
+```
     [{'description': ['# Fresque de Pompéi\n\n Cette épigramme est représentée, selon Gutzwiller, dans une fresque de Pompéi'],
       'language': ['fra']},
      {'description': ["# Imitations de 6.13\n\n C'est vraisemblablement cette pièce de Léonidas qui a inspiré les épigr. 11-16 et 179-187, entre autres 14 (d'Antipater) et 16 (d'Archias), qui n'en sont que des imitations assez serviles. Elle était, en tous cas, une des plus classiques de toute la série; car c'est celle-là qu'on avait gravée sur le mur d'une maison de Pompéi pour servir de légende à une scène où était peinte cette offrande de trois chasseurs; mais il ne subsiste, des trois distiques que comportait l'inscription, que cinq lettres disséminées et les six premières du v. 6; et il a fallu toute la perspicacité de Dilthey pour y reconnaître des fragments de notre épigramme. \n-P. Waltz "],
@@ -762,7 +762,7 @@ ep7_710['external_references']
 
 
 
-```json
+```
     [{'title': 'Jacques Lazure, Le Blaffart (2018)',
       'url': 'https://opuscules.ca/article-alire?article=202248'},
      {'title': 'Charles Baudelaire, Remords Posthumes (1857)',
@@ -787,7 +787,7 @@ ep6_13['internal_references']
 
 
 
-```json
+```
     [{'to_passage': 'https://anthologiagraeca.org/api/passages/urn:cts:greekLit:tlg7000.tlg001.ag:6.11/',
       'reference_type': 'Default'},
      {'to_passage': 'https://anthologiagraeca.org/api/passages/urn:cts:greekLit:tlg7000.tlg001.ag:6.14/',
@@ -819,7 +819,7 @@ meleager
 
 
 
-```json
+```
     {'id': 1,
      'url': 'https://anthologiagraeca.org/api/authors/1/',
      'names': [{'name': 'Callimachus', 'language': 'eng'},
@@ -876,7 +876,7 @@ meleager['alternative_urns']
 
 
 
-```json
+```
     ['https://www.wikidata.org/wiki/Q192417',
      'http://data.perseus.org/catalog/urn:cts:greekLit:tlg0533']
 ```
@@ -891,7 +891,7 @@ Mytilene['alternative_urns']
 
 
 
-```json
+```
     ['https://www.wikidata.org/wiki/Q42295059',
      'https://pleiades.stoa.org/places/550763']
 ```
@@ -940,7 +940,7 @@ getAnnotations(590,599)
 
 
 
-```json
+```
     {'0590': [{'id': 'https://anno.ub.uni-heidelberg.de/anno/anno/I9jkuBuzRb6lJ193QTK80A',
        'type': 'Annotation',
        'title': 'Epigram 11.401 (part 2/2)',
