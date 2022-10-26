@@ -4,6 +4,8 @@
 
 La documentation de l'API servant les données de _l'Anthologie grecque_ se trouve dans le dossier `/DOC`. Le `README.md` contient seulement des exemples de données récupérées au format `json`, pour plus d'informations, lire le jupyter notebook.
 
+La documentation se trouve également sur la page web suivante : http://api-doc.anthologiagraeca.org/
+
 ## Fonctionnement du dépôt `git`
 
 `2022-Hackathon-Navigations` sert de dépôt unique des développements réalisés pendant le hackathon. Le dépôt est divisé en sous-dossiers correspondant aux équipes formées lors de l'événement. Pour limiter les conflits durant l'événement, nous proposons à chaque équipe de ne pas travailler sur la branche _main_ mais sur la branche correspondant au numéro de son équipe.
